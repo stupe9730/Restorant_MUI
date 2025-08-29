@@ -96,6 +96,7 @@ const Navbar = () => {
           >
             <Link to="/" style={{ color: "white", textDecoration: "none" }}>
               <Typography
+                onClick={(e) => setMenulist(true)}
                 sx={{
                   marginLeft: 3,
                   fontSize: "1rem",
@@ -262,6 +263,7 @@ const Navbar = () => {
             <hr />
             <Link to="/" style={{ textDecoration: "none", color: "white" }}>
               <Typography
+                onClick={(e) => setMenulist(false)}
                 sx={{
                   margin: "1rem 3rem",
                   fontSize: "1rem",
@@ -276,6 +278,7 @@ const Navbar = () => {
               style={{ textDecoration: "none", color: "white" }}
             >
               <Typography
+                onClick={(e) => setMenulist(false)}
                 sx={{
                   margin: "1rem 3rem",
                   fontSize: "1rem",
@@ -290,6 +293,7 @@ const Navbar = () => {
               style={{ textDecoration: "none", color: "white" }}
             >
               <Typography
+                onClick={(e) => setMenulist(false)}
                 sx={{
                   margin: "1rem 3rem",
                   fontSize: "1rem",
@@ -301,6 +305,7 @@ const Navbar = () => {
             </Link>
             <Link to="/menu" style={{ textDecoration: "none", color: "white" }}>
               <Typography
+                onClick={(e) => setMenulist(false)}
                 sx={{
                   margin: "1rem 3rem",
                   fontSize: "1rem",
@@ -315,6 +320,7 @@ const Navbar = () => {
               style={{ textDecoration: "none", color: "white" }}
             >
               <Typography
+                onClick={(e) => setMenulist(false)}
                 sx={{
                   margin: "1rem 3rem",
                   fontSize: "1rem",

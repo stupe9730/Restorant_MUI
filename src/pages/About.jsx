@@ -53,7 +53,13 @@ const About = () => {
       >
         <Grid container spacing={12}>
           <Grid item lg={6} md={6} xs={12}>
-            <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <Box
+              sx={{
+                marginTop: { sm: 0, xs: 4 },
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Avatar
                 src={aboutone}
                 sx={{
