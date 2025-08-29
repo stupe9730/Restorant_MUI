@@ -190,6 +190,7 @@ to {
               onMouseLeave={() => setIsHovered(false)}
               sx={{
                 padding: "1.5rem 1.5rem",
+                cursor: "crosshair",
                 backgroundColor: "white", // default color
                 transition:
                   "background-color 0.7s ease, color 0.6s ease, transform 0.4s ease",
@@ -221,11 +222,11 @@ to {
                   color: isHovered ? "white" : "black",
                 }}
               >
-                Master Chefs
+                Fresh & Healthy
               </Typography>
               <Typography sx={{ color: isHovered ? "white" : "black" }}>
-                Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                amet diam
+                Delicious meals made with fresh vegetables and balanced spices
+                for every foodie.
               </Typography>
             </Card>
           </Grid>
@@ -233,6 +234,7 @@ to {
             <Card
               sx={{
                 padding: "1.5rem 1.5rem",
+                cursor: "crosshair",
                 backgroundColor: "white", // default color
                 transition:
                   "background-color 0.7s ease, color 0.6s ease, transform 0.4s ease",
@@ -267,7 +269,7 @@ to {
                   transition: "color 0.6s ease",
                 }}
               >
-                Master Chefs
+                Street Food Vibes
               </Typography>
               <Typography
                 className="hover-text"
@@ -276,8 +278,8 @@ to {
                   transition: "color 0.6s ease",
                 }}
               >
-                Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                amet diam
+                Crispy snacks filled with tangy chutneys and bold flavours,
+                perfect to enjoy anytime.
               </Typography>
             </Card>
           </Grid>
@@ -287,6 +289,7 @@ to {
               onMouseLeave={() => setIstheHover(false)}
               sx={{
                 padding: "1.5rem 1.5rem",
+                cursor: "crosshair",
                 backgroundColor: "white", // default color
                 transition:
                   "background-color 0.7s ease, color 0.6s ease, transform 0.4s ease",
@@ -318,11 +321,11 @@ to {
                   color: istheHover ? "white" : "black",
                 }}
               >
-                Master Chefs
+                Fast Food Deals
               </Typography>
               <Typography sx={{ color: istheHover ? "white" : "black" }}>
-                Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                amet diam
+                Burgers, fries and pizzas served with cheesy dips and sauces,
+                made hot and fresh everyday special.
               </Typography>
             </Card>
           </Grid>
@@ -332,6 +335,7 @@ to {
               onMouseLeave={() => setIsforHover(false)}
               sx={{
                 padding: "1.5rem 1.5rem",
+                cursor: "crosshair",
                 backgroundColor: "white", // default color
                 transition:
                   "background-color 0.7s ease, color 0.6s ease, transform 0.4s ease",
@@ -363,11 +367,11 @@ to {
                   color: isforHover ? "white" : "black",
                 }}
               >
-                Master Chefs
+                24/7 Support
               </Typography>
               <Typography sx={{ color: isforHover ? "white" : "black" }}>
-                Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                amet diam
+                Friendly service with quick response to all your food delivery
+                questions and helpful guidance anytime.
               </Typography>
             </Card>
           </Grid>
